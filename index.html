@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parin Sheth</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+        integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Muli:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+        rel="stylesheet" />
+
+</head>
+
+<body>
+    <section>
+        <!-- navigation start -->
+        <nav>
+            <!-- logo start -->
+            <a href="#" class="logo">The Cookie Developer</a>
+            <!-- logo end -->
+
+            <!-- menu start -->
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Team</a></li>
+            </ul>
+            <!-- menu end -->
+            <div class="toggle"></div>
+        </nav>
+        <!-- navigation end -->
+
+        <!-- text start -->
+        <div class="text-container">
+            <p>Hello,</p>
+            <p>I'M PARIN</p>
+            <p>I'm a Software Engineer <br>& Designer</p>
+            <button class="hire-btn">Hire Me</button>
+            <button class="down-cv">Download CV</button>
+        </div>
+        <!-- text end -->
+
+        <!-- model start -->
+        <img src="images/model.png" alt="model" class="model">
+        <!-- model end -->
+
+    </section>
+
+    <!-- About Section Start -->
+    <div class="about-container">
+        <img src="images/about-img.png" alt="">
+
+        <div class="about-text">
+            <p>About Me</p>
+            <p>Developer & Designer</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia sunt nostrum, animi cum, eius iusto
+                repellat ad, sint obcaecati in fugit. Optio excepturi assumenda eius.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi corrupti, dolore maxime hic iusto vero
+                omnis aperiam eius architecto? Harum obcaecati sit voluptates rem exercitationem.</p>
+            <button>Hire Me</button>
+            <button>Download CV</button>
+        </div>
+    </div>
+    <!-- About Section end -->
+
+    <!-- Services Start -->
+    <div class="services">
+        <div class="services-text">
+            <p>Services</p>
+            <p>Services required</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum illo saepe aspernatur architecto consequatur
+                corporis non incidunt reiciendis illum, voluptatibus vel assumenda quia temporibus praesentium.</p>
+        </div>
+
+        <div class="box-container">
+            <div class="box-1">
+                <span>1</span>
+                <p class="heading">Web Design</p>
+                <p class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus deserunt dolore
+                    vero commodi, vitae natus quia provident harum sed obcaecati odit beatae dicta consectetur mollitia.
+                </p>
+                <button>Read More</button>
+            </div>
+            <div class="box-2">
+                <span>2</span>
+                <p class="heading">Web Development</p>
+                <p class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus deserunt dolore
+                    vero commodi, vitae natus quia provident harum sed obcaecati odit beatae dicta consectetur mollitia.
+                </p>
+                <button>Read More</button>
+            </div>
+            <div class="box-3">
+                <span>3</span>
+                <p class="heading">Security/SEO</p>
+                <p class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus deserunt dolore
+                    vero commodi, vitae natus quia provident harum sed obcaecati odit beatae dicta consectetur mollitia.
+                </p>
+                <button>Read More</button>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+    <!-- Contact Start -->
+    <div class="contact-me">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, laudantium.</p>
+        <button>Contact Me</button>
+    </div>
+    <!-- Contact End -->
+
+    <!-- footer  start -->
+    <footer>
+        <p>The Cookie Developer</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo voluptatem voluptatibus nam illo obcaecati cum?
+        </p>
+
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+
+        <p class="copyright">Copyrights &copy; The Cookie Developer</p>
+    </footer>
+    <!-- footer  end -->
+
+    <!-- social side bar start -->
+
+    <div class="a-social-b">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+    <!-- social side bar end -->
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.toggle').click(function () {
+                $('.toggle').toggleClass('active');
+                $('nav').toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
